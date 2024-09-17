@@ -17,3 +17,11 @@ print(et_tidspunkt_til)
 # Tidspunktene kan sammenlignes
 print(et_tidspunkt > et_tidspunkt_til)
 print(et_tidspunkt < et_tidspunkt_til)
+
+# Vi kan også hente ut gitte tidspunkt som måneden, året, minuttet osv.
+print(et_tidspunkt.year)
+print(et_tidspunkt.month)
+print(et_tidspunkt.day)
+print(et_tidspunkt.hour)
+print(et_tidspunkt.minute)
+print(et_tidspunkt.second)
