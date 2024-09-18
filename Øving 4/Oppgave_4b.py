@@ -7,7 +7,7 @@ strengvariabel, eller -1 om den ikke finner ordet. For hver funksjon, skriv ut l
 hele linja som inneholder funksjonsdefinisjonen
 """
 
-with open("Oppgave_4a.py", "r", encoding="utf-8") as fil:
+with open("/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Fra forelesninger/Funksjoner/Stjerne_firkant_funksjon.py", "r", encoding="utf-8") as fil:
     for linjenummer, linje in enumerate(fil, start=1):  # enumerate gir oss både linjenummer og selve linjen
-        if linje.find("print") !=-1:    # Velger å lete etter "print" i stedet for "def" da koden min ikke inneholder def
+        if linje.find("def") !=-1:
             print(f"Linje {linjenummer}: {linje.strip()}")  # linje.strip() fjerner eventuelle unødvendige mellomrom
