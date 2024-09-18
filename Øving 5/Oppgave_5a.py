@@ -8,11 +8,15 @@ programmere
 """
 import turtle
 
+# Ber bruker om input for antall diamanter som skal tegnes
 antall_diamanter = int(input("Hvor mange diamanter skal vi tegne? "))
 
+# Setter en størrelse til å starte med og et increment jeg ønsker å bruke som utgangspunkt til å øke størrelsen
+# på diamantene
 base_size = 50
 increment = 70
 
+# Begynner å tegne diamantene
 turtle.penup()
 for y in range(antall_diamanter):
     current_size = base_size + y*increment
