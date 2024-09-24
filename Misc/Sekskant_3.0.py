@@ -1,5 +1,7 @@
 """
-Program som tegner en sekskant ved hjelp av en funksjon
+Program som tegner en sekskant ved hjelp av en funksjon. Dette var egentlig en oppgave i en av øvingene
+men jeg utførte oppgaven på en annen måte enn det oppgaven ba om.
+Derfor har jeg laget dette programmet som en egen fil, og ikke som en del av øvingen.
 """
 
 import turtle

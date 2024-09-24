@@ -1,0 +1,74 @@
+
+Side
+1
+av 3
+DAT120 øving 1: Introduksjon til
+programmering
+Læringsmål
+Du skal oppfriske kunnskapen om hvordan datamaskiner virker. Du skal lære hvordan å bruke
+Python. Du skal lære hvordan å skrive enkle Python script. Du skal lære hvordan å lese enkle Python
+script og forstå hvordan enkle Python script virker. Du skal lære hvordan å lese inn data fra brukeren
+og skrive ut resultater til brukeren av scriptet.
+Om bruk av kunstig intelligens i øvingene
+Microsoft Copilot, ChatGPT og en del andre store språkmodeller klarer ofte å løse enkle
+programmeringsoppgaver som disse for deg. Men de feiler av og til selv på enkle oppgaver. Og på
+mer kompliserte oppgaver så feiler de rett som det er. For å kunne løse de mer kompliserte
+oppgavene så trenger du å gjøre enkle programmeringsoppgaver først. Derfor bør du prøve å gjøre
+disse oppgavene uten å bruke kunstig intelligens. Du kan fint spørre kunstig intelligens om hjelp hvis
+du sitter fast eller får en feilmelding du ikke skjønner, men du bør ikke be den om å løse oppgaven
+for deg. Får du kunstig intelligens til å løse oppgaven for deg så lærer du ikke det du skal av denne
+øvingen, og du kommer til å slite på gruppeprosjektet seinere i DAT120, på eksamen i DAT120, og når
+du skal bruke programmering seinere i studiet ditt og i arbeidslivet etter studiet.
+Gruppeprosjektet er stort nok til at den kunstige intelligensen ikke lengre kan løse det for deg uten at
+du bruker flere spørsmål og syr sammen koden fra dem.
+Oppgaver
+1. Utforsk mappestrukturen til datamaskinen din. Tenk over hvordan du skal organisere filene
+dine i DAT120 og de andre fagene du skal ha ved UiS. Finn ut hvor du ønsker å legge Python
+filene du skriver til øvingene i DAT120. Lag en mappe for filene dine i emnet DAT120. Lag en
+mappe for øving 1 inni mappa for DAT120. Lag gjerne mapper for de andre emnene du skal
+ha også.
+2. Gjør quiz-en på Canvas rundt hvordan datamaskiner virker
+3. Bruk Python tolkeren (nedre høyre vindu i Spyder) til å regne ut regnestykket 3 + 2*(4+3).
+Prøv gjerne andre regnestykker også for å teste ut de ulike regne-operatorene i Python slik
+som forskjellen mellom / og // operatorene.
+4. Bruk Python tolkeren (nedre høyre vindu i Spyder) til å lage noen variabler og gi dem verdier.
+Lag en variabel som inneholder resultatet av regnestykket i forrige deloppgave. Bruk denne
+verdien inn i regnestykket x*2 – 9, hvor x er resultatet fra forrige deloppgave.
+5. Forklar hva følgende program gjør uten å kjøre det. Tanken er at du skal lære deg å lese
+programkode og skjønne hva den gjør.
+6. Den innebygde funksjonen chr(x) tar inn et tall x og returnerer det tilsvarende tegnet fra UTF-
+8 kodetabellen som en streng med ett tegn. Skriv et script som lar brukeren skrive inn et tall.
+Så skal skriptet skrive ut det tilsvarende tegnet.
+7. Scriptet under er en start på en kode som leser inn avstanden en person har tilbakelagt
+(sprunget, syklet, gått eller liknende) samt hvor lang tid i minutter personen har brukt på
+dette. Deretter beregner koden tempo i minutter pr. kilometer. Fiks koden slik at den virker.
+Deretter legg til en beregning av fart i kilometer pr. time og skriv ut dette.
+8. Skriv et script som beregner hvor langt et objekt har falt etter en gitt tid. Anta at det står
+stille og at du slipper det ved tid 0. Programmet skal
+a. Lese inn et tall fra brukeren, som er antall sekunder objektet har falt.
+b. Regne ut farten i meter pr. sekund etter det antallet sekunder med formelen fart =
+akselerasjon*tid. Akselerasjonen fra tyngdekraften er 9,81 m/s2.
+c. Regne ut distansen objektet har falt i meter med formelen distanse = 0,5*fart*tid
+d. Skrive ut fart og distanse.
+9. Skriv et Python script som bruker Turtle Graphics til å tegne figur 1 under.
+10. Mengdetrening: Den innebygde funksjonen ord(x) tar inn en streng med ett tegn og
+returnerer tallverdien for dette tegnet i UTF-8 kodetabellen. Skriv et script som lar brukeren
+skrive inn et tegn. Så skal skriptet konvertere tegnet til et tall og skrive ut tallet.
+11. Avansert: Lag flere detaljer i tegningen, for eksempel slik som på figur 2. Lag gjerne flere
+og/eller andre detaljer enn de på figur 2.
+verdi1 = input("Skriv inn et tall: ")
+verdi1_tall = float(verdi1)
+verdi2 = input("Skriv inn et tall til: ")
+verdi2_tall = float(verdi2)
+resultat = (verdi1_tall + verdi2_tall)/2.0
+print(resultat)
+avstand_kilometer = input("Skriv inn avstand i kilometer: ")
+tid_minutter = input("Skriv inn tid i minutter: ")
+tempo = tid_minutter/avstand_kilometer
+print(f"Tempoet ditt var {tempo} minutter pr. kilometer")
+Figur 1: Turtle tegning, enkel
+Figur 2: Eksempel på mer avansert tegning
+Praktisk
+Denne øvingen er frivillig, men du kan gjerne kontakte en studentassistent i en av øvingstimene for
+hjelp eller for å sjekke om løsningen din er riktig. Quiz-en rundt hvordan en datamaskin virker kan du
+ta flere ganger helt til du får den til.
