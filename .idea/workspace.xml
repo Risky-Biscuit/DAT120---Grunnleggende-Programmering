@@ -4,15 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Added some more files under &quot;Samlingsobjekt&quot;">
-      <change afterPath="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter/eksempler_lister_strenger.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter/kommandolinje_eksempler_23_sep.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter/matplotlib_flere_diagrammer.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter/rdteller_direct.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter/telefonkatalog.py" afterDir="false" />
+    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Even more &quot;Samlingsobjekt&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter/plott_funksjon.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter/plott_funksjon.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Misc/Sekskant_3.0.py" beforeDir="false" afterPath="$PROJECT_DIR$/Misc/Sekskant_3.0.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,6 +67,7 @@
     "Python.matplotlib_flere_diagrammer.executor": "Run",
     "Python.modifiser_liste_i_loop.executor": "Run",
     "Python.numpy.executor": "Run",
+    "Python.ordteller_direct.executor": "Run",
     "Python.plott_funksjon.executor": "Run",
     "Python.plott_funksjon_separat.executor": "Run",
     "Python.telefonkatalog.executor": "Run",
@@ -123,7 +117,7 @@
       <workItem from="1727115774890" duration="1000" />
       <workItem from="1727116418181" duration="262000" />
       <workItem from="1727183462328" duration="21000" />
-      <workItem from="1727183488819" duration="5578000" />
+      <workItem from="1727183488819" duration="6877000" />
     </task>
     <task id="LOCAL-00001" summary="First upload of everything done before">
       <option name="closed" value="true" />
@@ -221,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727100140003</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Even more &quot;Samlingsobjekt&quot;">
+      <option name="closed" value="true" />
+      <created>1727190138875</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1727190138875</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -251,7 +253,8 @@
     <MESSAGE value="La til en passende forklaring på hva test.py brukes til" />
     <MESSAGE value="Changed the name of a directory and added some more files under &quot;Samlingsobjekter&quot;" />
     <MESSAGE value="Added some more files under &quot;Samlingsobjekt&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added some more files under &quot;Samlingsobjekt&quot;" />
+    <MESSAGE value="Even more &quot;Samlingsobjekt&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Even more &quot;Samlingsobjekt&quot;" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Strenger.coverage" NAME="Strenger Coverage Results" MODIFIED="1726605101218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />
@@ -259,6 +262,7 @@
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$plott_funksjon.coverage" NAME="plott_funksjon Coverage Results" MODIFIED="1727187158764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$test.coverage" NAME="test Coverage Results" MODIFIED="1727037191449" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Misc" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$basis_plotting.coverage" NAME="basis_plotting Coverage Results" MODIFIED="1726607411392" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />
+    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$ordteller_direct.coverage" NAME="ordteller_direct Coverage Results" MODIFIED="1727190031959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_4b.coverage" NAME="Oppgave_4b Coverage Results" MODIFIED="1726663479908" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 4" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_5a.coverage" NAME="Oppgave_5a Coverage Results" MODIFIED="1726857197063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 5" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$numpy.coverage" NAME="numpy Coverage Results" MODIFIED="1727184777811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />

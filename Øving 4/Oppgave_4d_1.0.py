@@ -11,7 +11,7 @@ løsning på øving 2 oppgave d) og utvid den slik at den i tillegg håndterer f
 """
 
 
-print("Vi skal finne ut gjennomsnitlig nedor for en gitt periode.")
+print("Vi skal finne ut gjennomsnitlig nedbor for en gitt periode.")
 nedbor = str(input("Skriv inn mengden nedbor i mm for alle dagene du ønsker å finne gjennomsnittet av. Separer verdiene med mellomrom: "))
 liste =  nedbor.split()
 liste_med_tall = list(map(float, liste))
