@@ -4,7 +4,7 @@ oppgave b)
 """
 
 try:
-    with open("/Fra_forelesninger/Funksjoner/Stjerne_firkant_funksjon.py", "r", encoding="utf-8") as fil:
+    with open("/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Fra_forelesninger/Funksjoner/Stjerne_firkant_funksjon.py", "r", encoding="utf-8") as fil:
         for linjenummer, linje in enumerate(fil, start=1):  # enumerate gir oss både linjenummer og selve linjen
             if linje.find("def") !=-1:
                 print(f"Linje {linjenummer}: {linje.strip()}")  # linje.strip() fjerner eventuelle unødvendige mellomrom
