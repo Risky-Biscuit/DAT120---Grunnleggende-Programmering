@@ -10,5 +10,10 @@ input_string = input("Skriv inn ett eller flere ord: ")
 # Gjør om strengen til et set
 unique_characters = set(input_string)
 
+# Fjerner mellomrom, komma og punktum
+unique_characters.remove(" ")
+unique_characters.remove(",")
+unique_characters.remove(".")
+
 # Printer ut ordene
 print(f"Bokstavene det du skrev inneholdt er {unique_characters}")
