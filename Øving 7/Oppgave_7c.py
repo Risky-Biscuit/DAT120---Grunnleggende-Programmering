@@ -19,7 +19,7 @@ with open(filename, "r") as file:
         # Går gjennom hvert ord i linja
         for word in line.split():
             # Fjerner punktum og komma fra ordet
-            word = word.strip(",.")
+            word = word.strip(",.\n")
             # Konverterer ordet til små bokstaver
             word = word.lower()
             # Sjekker om ordet allerede er lagret i dictionary
