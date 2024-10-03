@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Fikset lesing av fil i Oppgave_4b.py og Oppgave_4c.py">
-      <change afterPath="$PROJECT_DIR$/Øving 7/DAT120 oving 1 intro til programmering" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øving 7/DAT120 oving 6 gruppeprosjekt del 1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øving 7/Oppgave_7a.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øving 7/Oppgave_7b.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øving 7/Oppgave_7c.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øving 7/Oppgave_7d.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øving 7/Oppgave_7e.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Øving 7/Oppgave_b_utdelt.py" afterDir="false" />
+    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Øving 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,50 +47,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.Datetime.executor": "Run",
-    "Python.Oppgave_4a.executor": "Run",
-    "Python.Oppgave_4b.executor": "Run",
-    "Python.Oppgave_4c.executor": "Run",
-    "Python.Oppgave_4d_1.0.executor": "Run",
-    "Python.Oppgave_5a.executor": "Run",
-    "Python.Oppgave_5b.executor": "Run",
-    "Python.Oppgave_7a.executor": "Run",
-    "Python.Oppgave_7b.executor": "Run",
-    "Python.Oppgave_7c.executor": "Run",
-    "Python.Oppgave_7d.executor": "Run",
-    "Python.Sekskant_3.0.executor": "Run",
-    "Python.Stjerne_firkant_funksjon.executor": "Run",
-    "Python.Strenger.executor": "Run",
-    "Python.basis_plotting.executor": "Run",
-    "Python.bygging_av_lister.executor": "Run",
-    "Python.eksempler_lister_strenger.executor": "Run",
-    "Python.endrer_.executor": "Run",
-    "Python.flere_lister_i_en_liste.executor": "Run",
-    "Python.kommandolinje_eksempler_23_sep.executor": "Run",
-    "Python.liste.executor": "Run",
-    "Python.matplotlib_flere_diagrammer.executor": "Run",
-    "Python.modifiser_liste_i_loop.executor": "Run",
-    "Python.numpy.executor": "Run",
-    "Python.ordteller_direct.executor": "Run",
-    "Python.plott_funksjon.executor": "Run",
-    "Python.plott_funksjon_separat.executor": "Run",
-    "Python.telefonkatalog.executor": "Run",
-    "Python.test.executor": "Run",
-    "Python.tuppel.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Datetime.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_4a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_4b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_4c.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_4d_1.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_5a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_5b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_7a.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_7b.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_7c.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_7d.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Oppgave_7e.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Sekskant_3.0.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Stjerne_firkant_funksjon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Strenger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basis_plotting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.bygging_av_lister.executor&quot;: &quot;Run&quot;,
+    &quot;Python.eksempler_lister_strenger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.endrer_.executor&quot;: &quot;Run&quot;,
+    &quot;Python.flere_lister_i_en_liste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.kommandolinje_eksempler_23_sep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.liste.executor&quot;: &quot;Run&quot;,
+    &quot;Python.matplotlib_flere_diagrammer.executor&quot;: &quot;Run&quot;,
+    &quot;Python.modifiser_liste_i_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.numpy.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ordteller_direct.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plott_funksjon.executor&quot;: &quot;Run&quot;,
+    &quot;Python.plott_funksjon_separat.executor&quot;: &quot;Run&quot;,
+    &quot;Python.telefonkatalog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuppel.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -139,7 +132,17 @@
       <workItem from="1727340250087" duration="5000" />
       <workItem from="1727779463531" duration="6715000" />
       <workItem from="1727888793067" duration="2767000" />
-      <workItem from="1727940918646" duration="768000" />
+      <workItem from="1727940918646" duration="1500000" />
+      <workItem from="1727942807256" duration="214000" />
+      <workItem from="1727949865921" duration="645000" />
+      <workItem from="1727950535324" duration="17000" />
+      <workItem from="1727951705385" duration="914000" />
+      <workItem from="1727954237532" duration="59000" />
+      <workItem from="1727956482265" duration="56000" />
+      <workItem from="1727956586509" duration="47000" />
+      <workItem from="1727958338349" duration="454000" />
+      <workItem from="1727958862549" duration="131000" />
+      <workItem from="1727959405603" duration="3000" />
     </task>
     <task id="LOCAL-00001" summary="First upload of everything done before">
       <option name="closed" value="true" />
@@ -261,7 +264,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727290653303</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Øving 7">
+      <option name="closed" value="true" />
+      <created>1727942516165</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1727942516165</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -294,7 +305,8 @@
     <MESSAGE value="Even more &quot;Samlingsobjekt&quot;" />
     <MESSAGE value="Korrigerte skrivefeil på Oppgave_4d_1.0.py" />
     <MESSAGE value="Fikset lesing av fil i Oppgave_4b.py og Oppgave_4c.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fikset lesing av fil i Oppgave_4b.py og Oppgave_4c.py" />
+    <MESSAGE value="Øving 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="Øving 7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Strenger.coverage" NAME="Strenger Coverage Results" MODIFIED="1726605101218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />
@@ -326,6 +338,7 @@
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$modifiser_liste_i_loop.coverage" NAME="modifiser_liste_i_loop Coverage Results" MODIFIED="1727094679705" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_5b.coverage" NAME="Oppgave_5b Coverage Results" MODIFIED="1726858537745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 5" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7b.coverage" NAME="Oppgave_7b Coverage Results" MODIFIED="1727889877020" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
+    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7e.coverage" NAME="Oppgave_7e Coverage Results" MODIFIED="1727942474876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$eksempler_lister_strenger.coverage" NAME="eksempler_lister_strenger Coverage Results" MODIFIED="1727184842281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
   </component>
 </project>
