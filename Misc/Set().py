@@ -27,9 +27,16 @@ set_b = {3, 4, 5}
 
 # Union
 print(set_a | set_b)  # Output: {1, 2, 3, 4, 5}
+print(set_a.union(set_b))  # Output: {1, 2, 3, 4, 5}
+print(set_b.union(set_a))  # Output: {1, 2, 3, 4, 5}
 
 # Intersection
 print(set_a & set_b)  # Output: {3}
+print(set_a.intersection(set_b))  # Output: {3}
+print(set_b.intersection(set_a))  # Output: {3}
 
 # Difference
 print(set_a - set_b)  # Output: {1, 2}
+print(set_b - set_a)  # Output: {4, 5}
+print(set_a.difference(set_b))  # Output: {1, 2}
+print(set_b.difference(set_a))  # Output: {4, 5}
