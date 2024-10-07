@@ -1,5 +1,6 @@
 """
-Demonstrerer bruk av set()
+Demonstrerer bruk av set(). Det som er greit med set() er at det ikke tillater duplikater.
+Set() kan inneholde andre verdier enn lister, som f.eks. tall, tekst, osv.
 """
 
 # Creating a set from a list

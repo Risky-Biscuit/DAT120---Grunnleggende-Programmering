@@ -7,6 +7,9 @@ inneholder, men hver bokstav skal skrives ut bare en gang
 # Lager en input for ordet / ordene
 input_string = input("Skriv inn ett eller flere ord: ")
 
+# Gjør om strengen til små bokstaver
+input_string = input_string.lower()
+
 # Gjør om strengen til et set
 unique_characters = set(input_string)
 
