@@ -40,3 +40,16 @@ print(set_a - set_b)  # Output: {1, 2}
 print(set_b - set_a)  # Output: {4, 5}
 print(set_a.difference(set_b))  # Output: {1, 2}
 print(set_b.difference(set_a))  # Output: {4, 5}
+
+# Symmetric difference
+print(set_a < set_b)  # Output: False
+print(set_a > set_b)  # Output: False
+
+"""
+ Both are false because set_a and set_b have elements that are not in the other set.
+ The < and > operators are used to check if a set is a proper subset or superset of another set, respectively.
+ So set_a < set_b is equivalent to set_a.issubset(set_b) and set_a > set_b is equivalent to set_a.issuperset(set_b).
+ 
+In simpler terms, set_a < set_b checks if all elements in set_a are also in set_b, and set_a > set_b checks if all 
+elements in set_b are also in set_a.
+"""
