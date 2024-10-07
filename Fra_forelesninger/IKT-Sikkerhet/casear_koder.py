@@ -24,4 +24,3 @@ with open(filnavn_inn, "r") as inn_fil:
                     if tegnkode < ord("a"):
                         tegnkode += 26
                 ut_fil.write(chr(tegnkode))
-            ut_fil.write("\n")
