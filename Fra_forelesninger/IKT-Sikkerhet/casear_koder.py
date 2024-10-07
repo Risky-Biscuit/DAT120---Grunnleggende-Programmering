@@ -1,3 +1,7 @@
+"""
+Program som krypterer og dekrypterer en tekstfil med Caesar-kode.
+"""
+
 filnavn_inn = input("Skriv inn navn på fila inn: ")
 filnavn_ut = input("Skriv inn navnet på fila ut: ")
 distanse = int(input("Skriv inn hvor mange tegn den skal skifte. Negativ verdi for å dekryptere: "))
