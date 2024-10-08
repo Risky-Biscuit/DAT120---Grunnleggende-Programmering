@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Fikset på Oppgave_7c.py og Oppgave_7a_2.0.py">
+    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Fjernet new-line funksjonen slik at den dekrypterte filen ikke har unødvendig mange ny linjer mellom tekstlinjene">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -68,6 +68,7 @@
     &quot;Python.Strenger.executor&quot;: &quot;Run&quot;,
     &quot;Python.basis_plotting.executor&quot;: &quot;Run&quot;,
     &quot;Python.bygging_av_lister.executor&quot;: &quot;Run&quot;,
+    &quot;Python.casear_koder.executor&quot;: &quot;Run&quot;,
     &quot;Python.eksempler_lister_strenger.executor&quot;: &quot;Run&quot;,
     &quot;Python.endrer_.executor&quot;: &quot;Run&quot;,
     &quot;Python.flere_lister_i_en_liste.executor&quot;: &quot;Run&quot;,
@@ -100,6 +101,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
       <recent name="$PROJECT_DIR$/" />
     </key>
   </component>
@@ -154,7 +156,9 @@
       <workItem from="1728225476142" duration="19000" />
       <workItem from="1728225500665" duration="37000" />
       <workItem from="1728299270951" duration="11000" />
-      <workItem from="1728302175691" duration="434000" />
+      <workItem from="1728302175691" duration="5460000" />
+      <workItem from="1728386230711" duration="12000" />
+      <workItem from="1728399126710" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="First upload of everything done before">
       <option name="closed" value="true" />
@@ -324,7 +328,63 @@
       <option name="project" value="LOCAL" />
       <updated>1727965579543</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="La til at bokstavene blir gjort om til små boksatver i Oppgave_7a_2.0.py&#10;&#10;La til litt ekstra info i doc stringen på Set().py">
+      <option name="closed" value="true" />
+      <created>1728303822395</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1728303822395</updated>
+    </task>
+    <task id="LOCAL-00023" summary="La til flere demonstrasjoner">
+      <option name="closed" value="true" />
+      <created>1728304088161</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1728304088161</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Flyttet Set().py">
+      <option name="closed" value="true" />
+      <created>1728304208328</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1728304208328</updated>
+    </task>
+    <task id="LOCAL-00025" summary="La til en forklaring av &lt; og &gt; i Set().py">
+      <option name="closed" value="true" />
+      <created>1728304768225</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1728304768225</updated>
+    </task>
+    <task id="LOCAL-00026" summary="En fil som utfører et caesar cypher, og en tekstfil som caesar cypheret bruker.">
+      <option name="closed" value="true" />
+      <created>1728304952904</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1728304952904</updated>
+    </task>
+    <task id="LOCAL-00027" summary="La til en doc string i caesar_koder.py">
+      <option name="closed" value="true" />
+      <created>1728305266663</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728305266663</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Fjernet new-line funksjonen slik at den dekrypterte filen ikke har unødvendig mange ny linjer mellom tekstlinjene">
+      <option name="closed" value="true" />
+      <created>1728308684702</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728308684702</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -342,9 +402,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="First upload of everything done before" />
-    <MESSAGE value="En liten &quot;tutorial&quot; på lister" />
-    <MESSAGE value="Legger til forklaringer for Datetime og Strenger" />
     <MESSAGE value="Utvidelse av Datetime.py" />
     <MESSAGE value="Lagd flere &quot;samlingsobjekter&quot;" />
     <MESSAGE value="Løste den obligatoriske oppgaven på øving 5" />
@@ -363,7 +420,14 @@
     <MESSAGE value="Lagde Oppgave_7a_2.0.py som gjør oppgave 7 a om igjen men bruker set() denne gang." />
     <MESSAGE value="Fjerner mellomrom, komma og punktum fra Oppgave_7a_2.0.py" />
     <MESSAGE value="Fikset på Oppgave_7c.py og Oppgave_7a_2.0.py" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fikset på Oppgave_7c.py og Oppgave_7a_2.0.py" />
+    <MESSAGE value="La til at bokstavene blir gjort om til små boksatver i Oppgave_7a_2.0.py&#10;&#10;La til litt ekstra info i doc stringen på Set().py" />
+    <MESSAGE value="La til flere demonstrasjoner" />
+    <MESSAGE value="Flyttet Set().py" />
+    <MESSAGE value="La til en forklaring av &lt; og &gt; i Set().py" />
+    <MESSAGE value="En fil som utfører et caesar cypher, og en tekstfil som caesar cypheret bruker." />
+    <MESSAGE value="La til en doc string i caesar_koder.py" />
+    <MESSAGE value="Fjernet new-line funksjonen slik at den dekrypterte filen ikke har unødvendig mange ny linjer mellom tekstlinjene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fjernet new-line funksjonen slik at den dekrypterte filen ikke har unødvendig mange ny linjer mellom tekstlinjene" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Strenger.coverage" NAME="Strenger Coverage Results" MODIFIED="1726605101218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />
@@ -384,11 +448,12 @@
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$tuppel.coverage" NAME="tuppel Coverage Results" MODIFIED="1727099102542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7a.coverage" NAME="Oppgave_7a Coverage Results" MODIFIED="1727815569833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Sekskant_3_0.coverage" NAME="Sekskant_3.0 Coverage Results" MODIFIED="1727185756584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Misc" />
-    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7a_2_0.coverage" NAME="Oppgave_7a_2.0 Coverage Results" MODIFIED="1727965277880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
+    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7a_2_0.coverage" NAME="Oppgave_7a_2.0 Coverage Results" MODIFIED="1728303717889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_4a.coverage" NAME="Oppgave_4a Coverage Results" MODIFIED="1726663450760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 4" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7c.coverage" NAME="Oppgave_7c Coverage Results" MODIFIED="1727965519811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$liste.coverage" NAME="liste Coverage Results" MODIFIED="1726603561741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Stjerne_firkant_funksjon.coverage" NAME="Stjerne_firkant_funksjon Coverage Results" MODIFIED="1726661770197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Funksjoner" />
+    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$casear_koder.coverage" NAME="casear_koder Coverage Results" MODIFIED="1728308612154" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/IKT-Sikkerhet" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$telefonkatalog.coverage" NAME="telefonkatalog Coverage Results" MODIFIED="1727188963326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$matplotlib_flere_diagrammer.coverage" NAME="matplotlib_flere_diagrammer Coverage Results" MODIFIED="1727188532566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$kommandolinje_eksempler_23_sep.coverage" NAME="kommandolinje_eksempler_23_sep Coverage Results" MODIFIED="1727184926880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
