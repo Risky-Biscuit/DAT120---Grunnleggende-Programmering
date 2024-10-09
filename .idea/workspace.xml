@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Fjernet new-line funksjonen slik at den dekrypterte filen ikke har unødvendig mange ny linjer mellom tekstlinjene">
+    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="La til alt vi har gjort for øving 6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,6 +101,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Øving 6 - Gruppeprosjekt" />
       <recent name="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
       <recent name="$PROJECT_DIR$/" />
     </key>
@@ -159,6 +160,9 @@
       <workItem from="1728302175691" duration="5460000" />
       <workItem from="1728386230711" duration="12000" />
       <workItem from="1728399126710" duration="247000" />
+      <workItem from="1728403008983" duration="509000" />
+      <workItem from="1728454962681" duration="13000" />
+      <workItem from="1728455761317" duration="298000" />
     </task>
     <task id="LOCAL-00001" summary="First upload of everything done before">
       <option name="closed" value="true" />
@@ -384,7 +388,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728308684702</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="La til alt vi har gjort for øving 6">
+      <option name="closed" value="true" />
+      <created>1728403126299</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1728403126299</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -402,7 +414,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Utvidelse av Datetime.py" />
     <MESSAGE value="Lagd flere &quot;samlingsobjekter&quot;" />
     <MESSAGE value="Løste den obligatoriske oppgaven på øving 5" />
     <MESSAGE value="La til kommentarer på øving 5 oppgave a" />
@@ -427,7 +438,8 @@
     <MESSAGE value="En fil som utfører et caesar cypher, og en tekstfil som caesar cypheret bruker." />
     <MESSAGE value="La til en doc string i caesar_koder.py" />
     <MESSAGE value="Fjernet new-line funksjonen slik at den dekrypterte filen ikke har unødvendig mange ny linjer mellom tekstlinjene" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fjernet new-line funksjonen slik at den dekrypterte filen ikke har unødvendig mange ny linjer mellom tekstlinjene" />
+    <MESSAGE value="La til alt vi har gjort for øving 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="La til alt vi har gjort for øving 6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Strenger.coverage" NAME="Strenger Coverage Results" MODIFIED="1726605101218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />

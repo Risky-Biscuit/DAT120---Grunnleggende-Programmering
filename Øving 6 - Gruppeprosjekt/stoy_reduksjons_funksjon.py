@@ -3,8 +3,7 @@ import numpy as np
 """
 Funksjonen tar inn en liste med tider, en liste med temperaturer og et tall n.
 For hvert gyldig tidspunkt regnes snittet av de n forrige målingene, den nåværende målingen og de n neste målingene.
-Gyldige tidspunkter er alle tid
-punkter hvor du ikke havner utenfor lista ved å gå n hakk bakover eller forover.
+Gyldige tidspunkter er alle tidspunkter hvor du ikke havner utenfor lista ved å gå n hakk bakover eller forover.
 Funksjonen returnerer lister med gyldige tidspunkter og gjennomsnittsverdier.
 """
 def stoy_reduksjon(tider: list, temperaturer: list, n: int):
