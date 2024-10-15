@@ -9,7 +9,7 @@ class Punkt:
         self.y_koordinat = y
 
     # Definerer x-koordinat som en property siden man da kan håndheve at den ikke
-    # skal kunne være negativ
+    # skal kunne være negativ. Kalles ofte "Getter" på engelsk.
     @property
     def x_koordinat(self):
         return self.__x_koordinat

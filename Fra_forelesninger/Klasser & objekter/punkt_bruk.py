@@ -1,4 +1,5 @@
-from punkt_porperties import *
+from punkt_properties import *
+
 
 # Lager to strenger
 streng = "En tekst"
