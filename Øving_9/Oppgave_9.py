@@ -21,8 +21,8 @@ class Maalinger_aar:
         self.aar = aar
         self.total_solflekker = 0
         self.antall_maalinger = 0
-        self.maks_daglig = 0
-        self.min_daglig = 1000000
+        self.maks_daglig = -float('inf')
+        self.min_daglig = float('inf')
 
     def ny_maaling(self, antall_solflekker):
         self.total_solflekker += antall_solflekker
