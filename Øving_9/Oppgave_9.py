@@ -1,20 +1,4 @@
-"""
-Lag en klasse «Maalinger_aar». Hvert objekt av denne klassen representerer de dataene
-dere trenger for å plotte ett enkelt år. Dere skal legge til alle målinger for et bestemt år i
-Maalinger_aar objektet for det året. Klassen Maalinger_aar skal ha egenskapene år,
-total_solflekker, antall_målinger, maks_daglig og min_daglig.
-a. Konstruktøren til klassen skal ta år som parameter og sette egenskapen år lik det
-oppgitte året. Gi de andre egenskapene verdier som gir mening for et tomt objekt
-som ikke enda lagrer noen målinger.
-b. Lag en metode for å sette inn en ny måling. Metoden skal ta antall solflekker den
-dagen som parameter. Metoden skal legge dette til totalen, legge 1 til antallet, og
-oppdatere maks og min om nødvendig.
-c. Lag en metode for å hente ut gjennomsnittlig antall solflekker. Gjennomsnittet er
-total delt på antall.
-"""
-
 import matplotlib.pyplot as plt
-
 
 class Maalinger_aar:
     def __init__(self, aar):
@@ -35,21 +19,8 @@ class Maalinger_aar:
     def gjennomsnittlig_solflekker(self):
         return self.total_solflekker / self.antall_maalinger
 
-"""
-I hovedprogrammet (if __name__ == «__main__» blokken), lag et dictionary som har år
-som nøkkel og et tomt Maaling objekt for det året som verdi
-"""
-
-#if __name__ == "__main__":
+# Dictionary for å lagre objekter av klassen Maalinger_aar
 maalinger = {}
-
-"""
-Lag kode som leser inn fila. Format på solflekk-fila er: år; måned; dag; år-milliår; antall
-solflekker; standardavvik mellom observasjonene den dagen; antall observasjoner den
-dagen; om dette er en endelig eller midlertidig verdi. -1 for antall solflekker betyr at det
-mangler data for den dagen, disse linjene kan du bare hoppe over. I denne oppgaven skal
-du bare bruke kolonnene år og antall solflekker
-"""
 
 # Åpne filen med solflekkaktivitet
 with open('data/solflekkaktivitet_daglig_excel.csv', 'r') as file:
@@ -70,12 +41,6 @@ with open('data/solflekkaktivitet_daglig_excel.csv', 'r') as file:
         # Oppdater objektet med den nye målingen
         maalinger[year].ny_maaling(solflekker)
 
-
-"""
-Plott resultatet. Du må da gå gjennom dictionariet med maaling-objekter og lag de
-nødvendige listene og deretter plotte dette med matplotlib
-"""
-
 # Lister for plottet
 years = []
 average_solflekker = []
@@ -89,11 +54,46 @@ for year, maaling in maalinger.items():
     max_solflekker.append(maaling.maks_daglig)
     min_solflekker.append(maaling.min_daglig)
 
+# Funksjon for å finne topper
+def topper(years, average_solflekker, window=2):
+    topp_aar = []
+    for i in range(window, len(average_solflekker) - window):
+        if all(average_solflekker[i] > average_solflekker[i - j] for j in range(1, window + 1)) and \
+           all(average_solflekker[i] > average_solflekker[i + j] for j in range(1, window + 1)):
+            topp_aar.append((years[i], average_solflekker[i]))
+    return topp_aar
+
+# Finn toppårene etter at listene er fylt
+topp_aar = topper(years, average_solflekker, window=2)
+
+# Beregn gjennomsnittlig avstand mellom toppene
+def gjennomsnittlig_topp_avstand(topp_aar):
+    if len(topp_aar) < 2:
+        return 0  # Returner 0 hvis det ikke finnes nok topper til å beregne avstand
+
+    # Beregn avstandene mellom påfølgende toppår
+    avstander = [topp_aar[i + 1][0] - topp_aar[i][0] for i in range(len(topp_aar) - 1)]
+
+    # Beregn gjennomsnittlig avstand
+    gjennomsnitt_avstand = sum(avstander) / len(avstander)
+    return gjennomsnitt_avstand
+
+gjennomsnitt_avstand = gjennomsnittlig_topp_avstand(topp_aar)
+
+# Skriv ut resultatet
+print("Gjennomsnittlig avstand mellom toppene:", gjennomsnitt_avstand)
+
 # Opprett plottet
 plt.figure(figsize=(10, 6))
 plt.plot(years, average_solflekker, label='Gjennomsnitt', color="black")
 plt.plot(years, max_solflekker, label='Maksimum', color="orange", linestyle="dashed")
 plt.plot(years, min_solflekker, label='Minimum', color="blue", linestyle="dashed")
+
+# Marker toppårene med røde prikker
+
+plt.plot([year for year, value in topp_aar], [value for year, value in topp_aar], 'ro',
+             label='Topper')  # 'ro' markerer med røde prikker
+
 plt.xlabel('År')
 plt.ylabel('Antall solflekker')
 plt.title('Solflekkaktivitet per år')
