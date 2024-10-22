@@ -90,7 +90,6 @@ plt.plot(years, max_solflekker, label='Maksimum', color="orange", linestyle="das
 plt.plot(years, min_solflekker, label='Minimum', color="blue", linestyle="dashed")
 
 # Marker toppårene med røde prikker
-
 plt.plot([year for year, value in topp_aar], [value for year, value in topp_aar], 'ro',
              label='Topper')  # 'ro' markerer med røde prikker
 

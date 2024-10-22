@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Oppgave_9.py - endret maks_daglig og min_daglig initial values til -infinite og infinite">
+    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Oppgave_9.py - Gjorde de to frivillige deloppgavene">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Øving_9/Oppgave_9.py" beforeDir="false" afterPath="$PROJECT_DIR$/Øving_9/Oppgave_9.py" afterDir="false" />
     </list>
@@ -204,7 +204,7 @@
       <workItem from="1729179475976" duration="2519000" />
       <workItem from="1729362328030" duration="48000" />
       <workItem from="1729364814184" duration="6456000" />
-      <workItem from="1729528199889" duration="2607000" />
+      <workItem from="1729528199889" duration="3034000" />
     </task>
     <task id="LOCAL-00001" summary="First upload of everything done before">
       <option name="closed" value="true" />
@@ -502,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729179629047</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="Oppgave_9.py - Gjorde de to frivillige deloppgavene">
+      <option name="closed" value="true" />
+      <created>1729531013712</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1729531013712</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Even more &quot;Samlingsobjekt&quot;" />
     <MESSAGE value="Korrigerte skrivefeil på Oppgave_4d_1.0.py" />
     <MESSAGE value="Fikset lesing av fil i Oppgave_4b.py og Oppgave_4c.py" />
     <MESSAGE value="Øving 7" />
@@ -545,7 +552,8 @@
     <MESSAGE value="Fullført Oppgave_9.py, uten frivillige oppgaver" />
     <MESSAGE value="Oppgave_9.py oppgavetekst" />
     <MESSAGE value="Oppgave_9.py - endret maks_daglig og min_daglig initial values til -infinite og infinite" />
-    <option name="LAST_COMMIT_MESSAGE" value="Oppgave_9.py - endret maks_daglig og min_daglig initial values til -infinite og infinite" />
+    <MESSAGE value="Oppgave_9.py - Gjorde de to frivillige deloppgavene" />
+    <option name="LAST_COMMIT_MESSAGE" value="Oppgave_9.py - Gjorde de to frivillige deloppgavene" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$endrer_.coverage" NAME="endrer_ Coverage Results" MODIFIED="1727098466384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
@@ -558,7 +566,7 @@
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$tuppel.coverage" NAME="tuppel Coverage Results" MODIFIED="1727099102542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7a.coverage" NAME="Oppgave_7a Coverage Results" MODIFIED="1727815569833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$punkt_bruk.coverage" NAME="punkt_bruk Coverage Results" MODIFIED="1729079266447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Klasser &amp; objekter" />
-    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$siste_deloppgave.coverage" NAME="siste_deloppgave Coverage Results" MODIFIED="1729530796745" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving_9" />
+    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$siste_deloppgave.coverage" NAME="siste_deloppgave Coverage Results" MODIFIED="1729530902843" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving_9" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Levering_6_ferdig.coverage" NAME="Levering 6 ferdig Coverage Results" MODIFIED="1728915888375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 6 - Gruppeprosjekt" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7a_2_0.coverage" NAME="Oppgave_7a_2.0 Coverage Results" MODIFIED="1728303717889" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_7c.coverage" NAME="Oppgave_7c Coverage Results" MODIFIED="1727965519811" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 7" />
@@ -589,7 +597,7 @@
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_4a.coverage" NAME="Oppgave_4a Coverage Results" MODIFIED="1726663450760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving 4" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Objekter.coverage" NAME="Objekter Coverage Results" MODIFIED="1728909454289" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Klasser &amp; objekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$punkt_enkel.coverage" NAME="punkt_enkel Coverage Results" MODIFIED="1729079303729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Klasser &amp; objekter" />
-    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_9.coverage" NAME="Oppgave_9 Coverage Results" MODIFIED="1729530289287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving_9" />
+    <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Oppgave_9.coverage" NAME="Oppgave_9 Coverage Results" MODIFIED="1729530976291" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving_9" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Forsøk_på_kortlek.coverage" NAME="Forsøk på kortlek Coverage Results" MODIFIED="1728990622842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra_forelesninger/Klasser &amp; objekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$liste.coverage" NAME="liste Coverage Results" MODIFIED="1726603561741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Samlingsobjekter" />
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$Stjerne_firkant_funksjon.coverage" NAME="Stjerne_firkant_funksjon Coverage Results" MODIFIED="1726661770197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Fra forelesninger/Funksjoner" />
