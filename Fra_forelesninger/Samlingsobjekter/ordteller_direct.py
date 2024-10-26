@@ -7,7 +7,7 @@ The results are then printed to the console.
 ordliste = dict()
 
 # Open the file in read mode with UTF-8 encoding
-with open("/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Øving 1/Øving 1", "r",
+with open("/Øving_1/Øving 1", "r",
           encoding="UTF-8") as file:
     # Iterate over each line in the file
     for linje in file:
