@@ -6,9 +6,9 @@ import datetime
 # VARIABLER
 ###############################################################################
 # Spesifiserer filene/datasettene som skal tas inn og konverteres til lister av verdier
-SOLA_FIL="/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Øving_10/data/temperatur_trykk_met_samme_rune_time_datasett.csv.txt"
-UIS_FIL="/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Øving_10/data/trykk_og_temperaturlogg_rune_time.csv.txt"
-SINNES_SAUDA_FIL="/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Øving_10/data/temperatur_trykk_sauda_sinnes_samme_tidsperiode.csv.txt"
+SOLA_FIL="/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Øving_10-Gruppeprosjekt_del_2/data/temperatur_trykk_met_samme_rune_time_datasett.csv.txt"
+UIS_FIL="/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Øving_10-Gruppeprosjekt_del_2/data/trykk_og_temperaturlogg_rune_time.csv.txt"
+SINNES_SAUDA_FIL="/Users/kristiangundersen/PycharmProjects/DAT120 - Grunnleggende Programmering/Øving_10-Gruppeprosjekt_del_2/data/temperatur_trykk_sauda_sinnes_samme_tidsperiode.csv.txt"
 # Beskriver hvor (indeksen) i den først importerte listen av datasettet de spesifikke datatypene opptrer
 # SOLA
 START_SOLA_DATO=7
