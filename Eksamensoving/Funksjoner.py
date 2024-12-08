@@ -17,7 +17,8 @@ def topper(liste):
             if liste[index+i] >= liste[index]:
                 topp = False
                 break
-        if liste[index] > liste[index-1] and liste[index] > liste[index-2] and liste[index] > liste[index+1] and liste[index] > liste[index+2]:
+        if (liste[index] > liste[index-1] and liste[index] > liste[index-2] and liste[index] > liste[index+1] and
+                liste[index] > liste[index+2]):
             topp_liste.append(index)
     return topp_liste
 

@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Diverse oppgaver fra tidligere eksamener">
+    <list default="true" id="9b506321-d379-47c2-8557-3272f82d11d7" name="Changes" comment="Usikker. Div endringer">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fra_forelesninger/Eksamenssett/dictionaries.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fra_forelesninger/Eksamenssett/dictionaries.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Fra_forelesninger/Eksamenssett/filbehandling.py" beforeDir="false" afterPath="$PROJECT_DIR$/Fra_forelesninger/Eksamenssett/filbehandling.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Eksamensoving/Funksjoner.py" beforeDir="false" afterPath="$PROJECT_DIR$/Eksamensoving/Funksjoner.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -267,7 +266,7 @@
       <workItem from="1733229508864" duration="83000" />
       <workItem from="1733420726873" duration="1722000" />
       <workItem from="1733500833242" duration="162000" />
-      <workItem from="1733501020975" duration="19057000" />
+      <workItem from="1733501020975" duration="22721000" />
     </task>
     <task id="LOCAL-00001" summary="First upload of everything done before">
       <option name="closed" value="true" />
@@ -653,7 +652,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733662970131</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="Usikker. Div endringer">
+      <option name="closed" value="true" />
+      <created>1733676836660</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1733676836660</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -671,7 +678,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Flyttet Set().py" />
     <MESSAGE value="La til en forklaring av &lt; og &gt; i Set().py" />
     <MESSAGE value="En fil som utfører et caesar cypher, og en tekstfil som caesar cypheret bruker." />
     <MESSAGE value="La til en doc string i caesar_koder.py" />
@@ -696,7 +702,8 @@
     <MESSAGE value="Ferdige filer til øving 10" />
     <MESSAGE value="Endret mappenavn på øving 6 og 10. La til at de er respektivt gruppeprosjekt del 1 og del 2" />
     <MESSAGE value="Diverse oppgaver fra tidligere eksamener" />
-    <option name="LAST_COMMIT_MESSAGE" value="Diverse oppgaver fra tidligere eksamener" />
+    <MESSAGE value="Usikker. Div endringer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Usikker. Div endringer" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DAT120___Grunnleggende_Programmering$fil.coverage" NAME="fil Coverage Results" MODIFIED="1731325401437" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Øving_10" />
