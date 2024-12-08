@@ -1,3 +1,5 @@
+from charset_normalizer.constant import UTF8_MAXIMAL_ALLOCATION
+
 elementer = list()
 
 try:

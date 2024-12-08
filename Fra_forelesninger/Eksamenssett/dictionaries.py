@@ -19,5 +19,5 @@ def skriv_sortert_liste(dictionary):
 
 if __name__ == "__main__":
     liste = ["1984: 3", "1987: 6", "1979: 2", "1984: 2"]
-    dictrionary = les_liste(liste)
-    skriv_sortert_liste(dictrionary)
+    dictionary = les_liste(liste)
+    skriv_sortert_liste(dictionary)
